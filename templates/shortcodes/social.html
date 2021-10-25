@@ -1,0 +1,13 @@
+{% if social_tryb %}
+  <div class="social-container">
+    {% if social_link %}
+      <a class="social-link" href={{ social_link }} target=”_blank”>
+        <i class="social-icon fa fa-{{social_tryb}}"></i>
+      </a>
+    {% endif %}
+    {% if social_text %}
+      {{ social_text }}
+    {% endif %}
+  </div>
+{% endif %}
+

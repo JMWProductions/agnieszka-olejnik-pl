@@ -1,0 +1,8 @@
++++
+weight = 8
++++
+{{ ksiazka(obrazek='randka-pod-jemiola.jpeg', strona_obrazka='prawa',  tytul='Ranka pod jemiołą - tom III', opis = '
+Opis wydawcy:<br/>
+Czy pocałunek pod jemiołą zawsze przynosi szczęście? Joanna jest szczęśliwą mężatką. Nie przeszkadzają jej nawet staroświeckie poglądy jej męża dotyczące tego, jak powinna wyglądać i zachowywać się jego żona. Musi mieć długie włosy, zapinać guziki bluzki niemal pod samą szyję i zawsze trzymać w ręce najważniejszy atrybut domowego ogniska – ściereczkę do kurzu. Wszystko jednak się zmienia, gdy Joanna odkrywa, że mąż ją zdradza. Wraz z radykalną zmianą fryzury, bohaterka postanawia całkiem odmienić swoje życie. Jej decyzja pociąga za sobą szereg konsekwencji – Joanna będzie musiała stawić czoła flirtującemu dyrektorowi szkoły oraz na nowo przemyśleć swój stosunek do pracy. Na szczęście, odkryje wokół siebie ludzi, którzy zawsze będą gotowi jej pomóc. A gdy nadejdzie grudzień i pod butami zacznie skrzypieć śnieg, a wokół unosić się zapach pierników i pomarańczy, nikt nie będzie potrafił oprzeć się uczuciu. W te święta każdy potrzebuje odrobiny bliskości.
+') }}
+{{ cytat(autor='Katarzyna', text='Zabawna, pełna humoru i cudownych postaci opowieść świąteczna, która pokazuje, że można wszystko osiągnąć i zmienić, jeśli tylko się chce. ', drugi_autor='Tatiasza i jej książki', drugi_text='Książka bardzo ciepła, wzrusza i bawi. Motywuje, daje nadzieję na lepsze jutro. Warto zawalczyć o siebie, zmienić coś w swoim życiu, zrobić ten pierwszy trudny krok i ruszyć do przodu. Emocje towarzyszyły mi od pierwszej do ostatniej strony. ') }}

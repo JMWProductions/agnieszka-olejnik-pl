@@ -1,0 +1,192 @@
+{% if page %}
+  {% if page.path is starting_with("/o-mnie") %}
+    {% set underline_about = true %}
+  {% elif page.path is starting_with("/książki") %}
+    {% set underline_books = true %}
+  {% elif page.path is starting_with("/kontakt") %}
+    {% set underline_contact = true %}
+  {% endif %}
+{% endif %}
+
+{% if section %}
+  {% if section.path == "/" %}
+    {% set header_white = true %}
+  {% elif section.path is starting_with("/powiesci") %}
+    {% set underline_novels = true %}
+  {% elif section.path is starting_with("/serie-powiesciowe") %}
+    {% set underline_series = true %}
+  {% elif section.path is starting_with("/dla-dzieci") %}
+    {% set underline_kids = true %}
+  {% endif %}
+{% endif %}
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>{% block title %}{% endblock title %}</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,500' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Poppins:400,600' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Sanchez:400, 600' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300, 400, 600' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <script type="text/javascript" src="/scripts/header.js" defer> </script>
+    <script type="text/javascript" src="/scripts/quote.js"> </script>
+  </head>
+  <body>
+    <div class="mobile-container">
+      <div id="whole-site-container" class="whole-site-container">
+        {% if header_white %}
+          <div class="header header-white" id="header">
+        {% else %}
+          <div class="header" id="header">
+        {% endif %}
+          <a href="/">
+            <img class="header-logo" src="https://agnieszkaolejnik.pl/wp-content/uploads/2020/02/Agnieszka_Olejnik_logo_web-1.png"></img>
+          </a>
+          <div class="header-text-container">
+            <div class="header-text-link-container">
+              <a href="/o-mnie/" class="header-text-link"> O MNIE
+              {% if underline_about %}
+                <div class="header-text-permamently-underlined"></div>
+              {% else %}
+                <div class="header-text-underline"></div>
+              {% endif %}
+              </a>
+            </div>
+            <div class="header-text-link-container">
+              <a class="header-text-link">
+                KSIĄŻKI
+                <i id="header-dropdown-arrow" class="fa fa-angle-down icon-in-menu"></i>
+                {% if underline_books %}
+                  <div class="header-text-permamently-underlined"></div>
+                {% else %}
+                  <div class="header-text-underline"></div>
+                {% endif %}
+              </a>
+              <div class="header-books-dropdown">
+                <a href="/powiesci/" class="books-link">
+                  POWIEŚCI
+                </a>
+                <a href="/serie-powiesciowe" class="books-link">
+                  SERIE POWIEŚCIOWE
+                </a>
+                <a href="/dla-dzieci" class="books-link">
+                  DLA DZIECI
+                </a>
+              </div>
+            </div>
+            <div class="header-text-link-container">
+              <a href="/kontakt/" class="header-text-link"> KONTAKT
+                {% if underline_contact %}
+                  <div class="header-text-permamently-underlined"></div>
+                {% else %}
+                  <div class="header-text-underline"></div>
+                {% endif %}
+              </a>
+            </div>
+          </div>
+          <div class="header-icons-container">
+            <a class="header-icon-container" href="https://www.facebook.com/AgnieszkaOlejnik.profil.autorski/?ref=aymt_homepage_panel&eid=ARBiq-CTO7PwOebuDasYoUAmyhXpRhUphrTUcsvUOX5UyOry_iruqONlcUxu7M1U1fPVXYyhFh5fcepo" target=”_blank”>
+              <i class="fa fa-facebook-f"></i>
+            </a>
+            <a class="header-icon-container" href="https://www.instagram.com/agnieszka.olejnik.writer/" target=”_blank”>
+              <i class="fa fa-instagram"></i>
+            </a>
+          </div>
+          <button class="mobile-menu-button" onclick="manageMobileMenuVisibility()">
+            <div class="mobile-menu-button-line"></div>
+            <div class="mobile-menu-button-line"></div>
+            <div class="mobile-menu-button-short-line"></div>
+          </button>
+        </div>
+        {% block content %} {% endblock %}
+        <div class="footer">{% block footer %}{% endblock footer %}</div>
+      </div>
+      <div class="mobile-menu-container">
+        <button id="mobile-menu-button-close" class="mobile-menu-button-close" onclick="manageMobileMenuVisibility()">
+          <div class="mobile-menu-button-close-first-line"></div>
+          <div class="mobile-menu-button-close-second-line"></div>
+        </button>
+        <div class="mobile-menu-content-container">
+          <ul class="mobile-menu-list">
+            <li class="mobile-menu-list-item">
+              <a class="mobile-link" href="/o-mnie/">
+                O mnie
+                {% if underline_about %}
+                  <div class="mobile-link-permamently-underlined"></div>
+                {% else %}
+                  <div class="mobile-link-underline"></div>
+                {% endif %}
+              </a>
+            </li>
+            <li class="mobile-menu-list-item">
+              <div class="mobile-menu-dropdown-container">
+                <button class="mobile-menu-dropdown-button" onclick="manageMobileDropdownVisibility()">
+                  Książki
+                </button>
+                <button class="mobile-menu-dropdown-button-arrow" onclick="manageMobileDropdownVisibility()">
+                  <i id="mobile-dropdown-arrow" class="fa fa-angle-down icon-in-menu mobile-dropdown-arrow"></i>
+                </button>
+              </div>
+              <ul id="mobile-dropdown" class="mobile-dropdown-menu">
+                <li class="mobile-menu-list-item">
+                  <a class="mobile-smaller-link" href="/powiesci/">
+                    Powieści
+                    {% if underline_novels %}
+                      <div class="mobile-link-permamently-underlined"></div>
+                    {% else %}
+                      <div class="mobile-link-underline"></div>
+                    {% endif %}
+                  </a>
+                </li>
+                <li class="mobile-menu-list-item">
+                  <a class="mobile-smaller-link" href="/serie-powiesciowe/">
+                    Serie powieściowe
+                    {% if underline_series %}
+                      <div class="mobile-link-permamently-underlined"></div>
+                    {% else %}
+                      <div class="mobile-link-underline"></div>
+                    {% endif %}
+                  </a>
+                </li>
+                <li class="mobile-menu-list-item">
+                  <a class="mobile-smaller-link" href="/dla-dzieci/">
+                    Dla dzieci
+                    {% if underline_kids %}
+                      <div class="mobile-link-permamently-underlined"></div>
+                    {% else %}
+                      <div class="mobile-link-underline"></div>
+                    {% endif %}
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="mobile-menu-list-item">
+              <a class="mobile-link" href="/kontakt/">
+                Kontakt
+                {% if underline_contact %}
+                  <div class="mobile-link-permamently-underlined"></div>
+                {% else %}
+                  <div class="mobile-link-underline"></div>
+                {% endif %}
+              </a>
+            </li>
+            <li class="mobile-menu-list-item">
+              <div class="mobile-icon-container">
+                <a class="mobile-icon" href="https://www.facebook.com/AgnieszkaOlejnik.profil.autorski/?ref=aymt_homepage_panel&eid=ARBiq-CTO7PwOebuDasYoUAmyhXpRhUphrTUcsvUOX5UyOry_iruqONlcUxu7M1U1fPVXYyhFh5fcepo" target=”_blank”>
+                  <i class="fa fa-facebook-f"></i>
+                </a>
+                <a class="mobile-icon" href="https://www.instagram.com/agnieszka.olejnik.writer/" target=”_blank”>
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

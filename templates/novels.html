@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %} {{ section.title }} {% endblock title %}
+{% block footer %} {{ section.extra.footer_text }} {% endblock footer %}
+
+{% block content %}
+  <div class="novels-upper-container">
+    {{ section.extra.glowny_text }}
+  </div>
+  <div class="content-wrapper">
+    <div class="content-container">
+      <div class="novels-main-container">
+        {% for page in paginator.pages %}
+          {{ page.content | safe }}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endblock content %}

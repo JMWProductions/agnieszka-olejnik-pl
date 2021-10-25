@@ -1,0 +1,75 @@
+@import "./shared";
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(-25px);
+  }
+}
+
+.about-me-upper-container {
+  @include upper-container;
+}
+
+.about-me-main-container {
+  @include main-container;
+}
+
+.about-me-left-column {
+  @include mobile {
+    width: 100%;
+    padding: 50px 20px 0 20px;
+  }
+
+  width: 50%;
+  padding-right: 74px;
+  padding-left: 52px;
+  box-sizing: border-box;
+}
+
+.about-me-right-column {
+  @include mobile {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 90px;
+    box-sizing: border-box;
+  }
+
+  width: 50%;
+}
+
+.about-me-introduction-image {
+  max-width: 100%;
+}
+
+.about-me-description {
+  @include sanchez-600;
+
+  @include mobile {
+    font-size: 20px;
+  }
+
+  font-size: 26px;
+  animation-name: fade-in-up;
+  animation-duration: 1.2s;
+  animation-fill-mode: forwards;
+}
+
+.about-me-underline {
+  width: 97px;
+  height: 3px;
+  background-color: $color-primary-light-grey;
+  margin-bottom: 25px;
+}
+
+.about-me-entry {
+  @include poppins-400;
+
+  font-size: 14px;
+  line-height: 26px;
+  margin-bottom: 21px;
+}

@@ -1,0 +1,41 @@
+{% if text %}
+<div>
+  <div id="quote-container" class="quote-container">
+    <div class="quote-background-absolute">
+      {% if drugi_text %}
+        <button class="quote-horizontal-changer" onclick="changeQuotes('first', event)">
+          <div class="quote-horizontal-changer-arrow">
+            &#10094;
+          </div>
+        </button>
+        <button class="quote-horizontal-changer" onclick="changeQuotes('second', event)">
+          <div class="quote-horizontal-changer-arrow">
+            &#10095;
+          </div>
+        </button>
+      {% endif %}
+    </div>
+    <div class="quote-mark">“</div>
+    <div id="first-quote" class="quote-text"> {{ text | safe }} </div>
+    {% if drugi_text %}
+      <div id="second-quote" class="quote-text"> {{ drugi_text | safe }} </div>
+    {% endif %}
+    {% if autor %}
+      <div id="first-author" class="quote-author">
+        {{ autor }}
+      </div>
+    {% endif %}
+    {% if drugi_autor %}
+      <div id="second-author" class="quote-author">
+        {{ drugi_autor }}
+      </div>
+    {% endif %}
+    {% if drugi_text %}
+    <div class="quote-changer-container">
+      <button id="first-changer" class="quote-changer" onclick="changeQuotes('first', event)"></button>
+      <button id="second-changer" class="quote-changer" onclick="changeQuotes('second', event)"></button>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endif %}

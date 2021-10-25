@@ -1,0 +1,8 @@
++++
+weight = 5
++++
+{{ ksiazka(obrazek='listy-i-szepty.jpeg', strona_obrazka='lewa', tytul='Listy i szepty - tom II', opis='
+Opis wydawcy:<br/>
+Urokliwe miasteczko na zachodzie Polski, a w nim malownicza kamienica z mansardowym dachem, pod którym toczą się pogmatwane losy jej mieszkańców. Jak to w życiu, znajdziemy tu namiętności i sekrety, marzenia i obawy, małe zwycięstwa i klęski. Lena, dziewczyna pełna optymizmu i wiary w ludzi, nadal opiekuje się schorowaną babcią. Czy zdoła odkryć jej tajemnicę z przeszłości? Czego szuka na krańcach Europy Borys, tajemniczy pisarz zamieszkujący poddasze? Jak potoczą się losy małżeństwa Markiewiczów i ich zbuntowanej córki? I czy Francesce uda się odzyskać wiarę w miłość? Zajrzyj raz jeszcze do Kamienicy pod Aniołami, które po cichutku czynią swoje cuda. Zanurz się w świecie pełnym sąsiedzkiej serdeczności, kobiecej przyjaźni i cichej, bezinteresownej dobroci.
+') }}
+{{ cytat(autor='kinga5350', text='Mansarda pod Aniołami jest o miłości, o przyjaźni, o pomocy drugiemu człowiekowi, o opiece nad starszym i schorowanym członkiem rodziny, o cierpliwości, o oddaniu, o namiętności, o optymizmie, o wybaczaniu, o odkrywaniu tajemnic rodzinnych, o radości życia, o Aniołach. O smutku, o bólu, o zdradzie, o poczuciu wyobcowania, o cierpieniu, o niewoli, o nienawiści, o okrucieństwie i bezwzględności, o zagubieniu, o lęku przed samotnością, o próbie odnalezienia się w społeczeństwie, wśród rówieśników, o poszukiwaniu siebie. Przede wszystkim o tym, że każdy chce kochać i być kochanym. ', drugi_autor='beataj', drugi_text='Coś, co zapowiadało się na babskie czytadło, okazało się piękną historią z trudnych czasów, z wielką dawką emocji. ') }}
