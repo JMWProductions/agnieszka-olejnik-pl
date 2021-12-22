@@ -4,6 +4,7 @@ template = 'index.html'
 [extra]
 footer_text = '© 2021 Agnieszka Olejnik. Wszelkie prawa zastrzeżone'
 +++
+<p style="display: none"></p>
 {{ strona_glowna_banner(text='Historie<br/>utkane z emocji') }}
 {{ ksiazki_przyciski(ukryty_tekst = 'Zobacz wszystkie', obrazek_pierwsza_ksiazka='pierwsza-ksiazka.jpeg', text_pierwsza_ksiazka='POWIEŚCI', obrazek_druga_ksiazka='druga-ksiazka.jpeg', text_druga_ksiazka='SERIE<br/>POWIEŚCIOWE', obrazek_trzecia_ksiazka='trzecia-ksiazka.jpeg', text_trzecia_ksiazka='KSIĄŻKI<br/>DLA DZIECI') }}
 {{ strona_glowna_opis(opis_text='Jestem mamą trzech synów, szczęśliwą żoną męża, którego mogę nazwać także swoim
