@@ -1,7 +1,7 @@
 +++
 weight = 4
 +++
-{{ ksiazka(obrazek='a-potem-przyszla-wiosna.jpeg', strona_obrazka='prawa', tytul='A potem przyszła wiosna', opis='
+{{ ksiazka(obrazek='a-potem-przyszla-wiosna.jpg', strona_obrazka='prawa', tytul='A potem przyszła wiosna', opis='
 Opis wydawcy: <br />
 Pola Gajda jest znaną aktorką. Jak przystało na prawdziwą gwiazdę, żyje w zawrotnym tempie: praca na planie, wywiady, imprezy u producentów i związek z celebrytą. Jej życie nie jest jednak wyłącznie pasmem sukcesów i radości, bowiem prześladuje ją wścibski paparazzo. Pewnego dnia Pola znajduje w internecie zdjęcie swojego ukochanego z inną kobietą. W jednej chwili cały jej świat rozsypuje się niczym zamek z piasku. Zdrada ukochanego tylko uwidacznia pustkę, w którą zamieniło się jej życie w blasku fleszy. Agnieszka Olejnik w sposób niezwykle przekonujący ukazuje zarówno najczarniejszy smutek, jak i budzącą się na nowo nadzieję i radość życia. „A potem przyszła wiosna” to przepiękna opowieść o tym, co w życiu naprawdę ważne.') }}
 {{ cytat(autor='Kasia', text='Są takie książki, które zmieniają nas i nasz świat. I ta książka do takich należy. Pozwala dojrzeć to, co w życiu najważniejsze: samo życie. Książka pełna uczuć i emocji. Roztrzaskuje serce, ale i daje nadzieję. ', drugi_autor='Kachusek', drugi_text='Dobra książka, mocno nastawiona na pochwałę prostego życia. Bez parcia na szkło, wielką kasę i klasę. W którym bliskość z drugim człowiekiem jest taka ważna. Nie tylko z ukochanym, ale i z kimś, kto nas wysłucha (czasem pomilczy) i pomoże na życiowym zakręcie. ' ) }}

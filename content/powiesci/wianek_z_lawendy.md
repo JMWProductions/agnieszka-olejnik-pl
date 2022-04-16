@@ -8,3 +8,4 @@ Nika opiekuje się chorą matką i uważa, że jej szansa na szczęście przepad
 Ścieżki trojga przyjaciół ze szkolnej ławy przetną się pewnego dnia – a ta odnaleziona po latach przyjaźń na swój sposób odmieni życie każdego z nich.<br/><br/>
 W Prowansji, krainie pachnącej lawendą, Nika znajdzie coś, czego się nie spodziewała. Życie ma dla niej więcej niż jedną niespodziankę.
 ') }}
+{{ cytat(autor='szalonyczytelnik', text='Piękna pachnąca lawendą i Prowansją historia o prawdziwej przyjaźni odnowionej po latach. O miłości i poszukiwaniu siebie i własnego miejsca, swoich korzeni. ', drugi_autor="Karmia", drugi_text="Piękna opowieść o miłości o poszukiwaniu siebie. Aż chce się jechać do Prowansji i poczuć ten zapach. ") }}
