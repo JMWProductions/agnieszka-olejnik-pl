@@ -1,7 +1,7 @@
 +++
 weight = 12
 +++
-{{ ksiazka(obrazek='zupelnie-inny-cud.jpg', strona_obrazka='prawa', tytul='Zupelnie inny cud', opis='
+{{ ksiazka(obrazek='zupelnie-inny-cud.jpg', strona_obrazka='prawa', tytul='Zupełnie inny cud', opis='
 Opis wydawcy:<br/><br/>
 Opowieść o tym, że wcale nie trzeba czekać na anioły. Przecież każdy ma własne skrzydła.<br/><br/>
 Otoczony pięknym parkiem pałacyk w Leszczynach jest już gotowy na przyjęcie gości. Jego właściciel, milioner Norbert Hall, spodziewa się, że będą to niezwykłe święta.<br/><br/>
