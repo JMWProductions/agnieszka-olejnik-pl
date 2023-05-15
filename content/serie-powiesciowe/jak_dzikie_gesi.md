@@ -1,7 +1,7 @@
 +++
 weight = 15
 +++
-{{ seria(nazwa='SERIA „Łużycka”') }}
+{{ seria(nazwa='SERIA „ŁUŻYCKA”') }}
 {{ ksiazka(obrazek='jak-dzikie-gesi.jpg', strona_obrazka='lewa', tytul='Dzikie gęsi', opis='
 Opis wydawcy:<br/>
 Wiosna 1938 roku. Na Dolnych Łużycach gęstnieje mrok nazizmu. Pochodząca z polsko-niemieckiej rodziny Katrin czuje się coraz mniej bezpieczna w świecie, gdzie jeden donos może zniszczyć człowiekowi życie. Wystarczy żart z Führera albo nie dość entuzjastycznie oddany salut. Rudolf Hertz, ambitny członek Hitlerjugend, rzadko myśli o miłości. Jego marzenia i plany koncentrują się wokół kariery i służby dla Rzeszy. <br />Jest tylko jedna dziewczyna, która wzbudza jego zainteresowanie – jasnowłosa Katrin. Pewnego dnia między tymi dwojgiem stanie chłopak o szarych oczach i niesfornej czuprynie.<br/>
