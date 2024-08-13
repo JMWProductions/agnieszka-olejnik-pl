@@ -9,3 +9,4 @@ Co przyniesie koniec wojny? Kto zapłaci najwyższą cenę, a komu uda się prze
 <br/><br/>
 A jeśli nie będzie już do czego wracać?
 ') }}
+{{ cytat(autor='Kaganaa', text='Umiejetność wzbudzania emocji to niezaprzeczalnie domena Agnieszki Olejnik, która zachwyciła mnie kolejną powieścią.', drugi_autor='Sandra_pisze', drugi_text='Przestałam istnieć na wiele długich godzin. Zniknęłam. Zostałam pochłonięta przez świat bohaterów') }}

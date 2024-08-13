@@ -2,7 +2,7 @@
 weight = 1
 +++
 {{ seria(nazwa='SERIA „WSZYSTKIE SMAKI ŻYCIA”') }}
-{{ ksiazka(obrazek='szczescie-na-wage.jpeg', strona_obrazka='lewa', tytul='Szczęście na wagę - tom I', opis='
+{{ ksiazka(obrazek='szczescie-na-wage.png', strona_obrazka='lewa', tytul='Szczęście na wagę - tom I', opis='
 Opis wydawcy:<br/><br/>
 Czy ludzie, którzy stali się dla siebie obcy, mogą odbudować relacje i zacząć wszystko od nowa?<br/>
 Ewa jest żoną i matką, całkowicie poświęconą rodzinie. Jednak jako dojrzała kobieta uświadamia sobie, że przestała realizować własne marzenia i czerpać radość z życia. Jej frustrację pogłębiają rodzinne troski: miłość w małżeństwie dawno wygasła, a nastoletnia córka ukrywa przed rodzicami swoje problemy i odrzuca wszelką pomoc.<br/>

@@ -1,7 +1,7 @@
 +++
 weight = 3
 +++
-{{ ksiazka(obrazek='dziewczyna-z-porcelany.jpeg', strona_obrazka='lewa', tytul='Dziewczyna z porcelany', opis='
+{{ ksiazka(obrazek='dziewczyna-z-porcelany.png', strona_obrazka='lewa', tytul='Dziewczyna z porcelany', opis='
 Opis wydawcy: <br />
 Kobieta potrzebuje mężczyzny, nie chłopca…
 Światem Michała rządzą pieniądze i piękne kobiety. Rozchwytywany fotograf, przebojowy student informatyki i model. Jeden telefon sprawia, że Michał musi natychmiast dojrzeć: porzucić swoje dotychczasowe studenckie życie, wyprowadzić się z dużego miasta i przenieść w rodzinne strony, by zaopiekować się młodszym bratem.
