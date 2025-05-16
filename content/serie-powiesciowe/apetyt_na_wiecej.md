@@ -1,7 +1,7 @@
 +++
 weight = 3
 +++
-{{ ksiazka(obrazek='apetyt-na-wiecej.jpeg', strona_obrazka='lewa', tytul='Apetyt na więcej - tom III', opis='
+{{ ksiazka(obrazek='apetyt-na-wiecej.jpg', strona_obrazka='lewa', tytul='Apetyt na więcej - tom III', opis='
 Opis wydawcy:
 Życie nie zawsze układa się zgodnie z naszymi oczekiwaniami, a szczęście kryje się w najmniej spodziewanych miejscach. Jak rozpoznać drogę, która do niego prowadzi. Ewa czuje, że oszukuje siebie i swojego partnera, trwając w pozornie tylko idealnym związku. Kobieta uświadamia sobie, że jedynym mężczyzną, którego naprawdę kocha, jest Andrzej. Jednak na przeszkodzie ich miłości staje ciąg nieporozumień i niedomówień. Tymczasem Klaudia, borykająca się z problemem samoakceptacji, wyrusza na poszukiwania samej siebie i znajduje szczęście w najmniej spodziewanym miejscu. W trzeciej części bestsellerowego cyklu Agnieszki Olejnik bohaterowie muszą zadać sobie pytanie, kim są i czego pragną, oraz zawalczyć o własne szczęście. Bo życie ma różne smaki, a sztuką jest znaleźć ten, który pokocha się najbardziej.
 ') }}
