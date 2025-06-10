@@ -1,8 +1,9 @@
 +++
 weight = 9
 +++
+
 {{ seria(nazwa='SERIA „MIŁOSNA"') }}
-{{ ksiazka(obrazek='dworek-w-milosnej.jpeg', strona_obrazka='lewa', tytul='Dworek w Miłosnej - tom I', opis='
+{{ ksiazka(obrazek='dworek-w-milosnej.jpg', strona_obrazka='lewa', tytul='Dworek w Miłosnej - tom I', opis='
 Opis wydawcy:<br/>
 Wyobraź sobie długą, wysadzaną strzelistymi drzewami aleję, wiodącą do pełnego wspomnień dworku w stylu angielskim. Zajrzyj do rosarium z ogrodnikiem Antonim, przejdź się nad staw, odetchnij zapachem lawendy… Zajrzyj do miejsca, gdzie przeszłość splata się z teraźniejszością. Daj się uwieść niespiesznemu rytmowi życia w cichym miasteczku Miłosna. Bogna Rytter, dziedziczka posiadłości, zapisuje swój majątek jedynym krewnym – kuzynkom Adzie i Monice. Co zrobią z nieoczekiwanym spadkiem? Czy każda zmiana jest zmianą na lepsze? Jak ułożą się stosunki między dwiema niemal obcymi kobietami, między którymi staną wielkie pieniądze i… mężczyzna? Stare mury kryją niejedną tajemnicę. A kiedy do dworku wprowadzi się młodość, wraz z nią zamieszkają tam marzenia, namiętności i tęsknoty.
 ') }}
