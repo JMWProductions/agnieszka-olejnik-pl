@@ -79,6 +79,13 @@
   font-size: 26px;
 }
 
+.book-subtitle {
+  @include sanchez-600;
+
+  font-size: 14px;
+  line-height: 26px;
+}
+
 .book-underline {
   height: 3px;
   background-color: $color-primary-light-grey;
@@ -119,7 +126,7 @@
 }
 
 .quote-mark {
-  font-family: Georgia,serif!important;
+  font-family: Georgia, serif !important;
   font-size: 50px;
   text-align: center;
   border-radius: 100px;
@@ -254,9 +261,7 @@
 }
 
 .series-title {
-  @include sanchez-600
-
-  @include mobile {
+  @include sanchez-600 @include mobile {
     font-size: 24px;
     line-height: 30px;
   }
@@ -273,9 +278,7 @@
 }
 
 .series-extra {
-  @include open-sans-600
-
-  @include mobile {
+  @include open-sans-600 @include mobile {
     line-height: 32px;
   }
 

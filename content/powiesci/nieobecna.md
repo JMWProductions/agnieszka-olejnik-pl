@@ -1,7 +1,8 @@
 +++
-weight = 5
+weight = 4
 +++
-{{ ksiazka(obrazek='nieobecna.png', strona_obrazka='lewa', tytul='Nieobecna', opis='
+
+{{ ksiazka(obrazek='nieobecna.png', strona_obrazka='prawa', tytul='Nieobecna', opis='
 Opis wydawcy: <br /><br />
 Dwie bliźniaczki, Julia i Julita, prowadzą osobliwą grę: zamieniają się ubraniem, zmieniają makijaż i fryzurę, żeby przejąć tożsamość tej drugiej.
 <br/><br/>

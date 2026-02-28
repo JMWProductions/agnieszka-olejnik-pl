@@ -10,6 +10,9 @@
     {% if tytul %}
     <div class="book-title"> {{ tytul }} </div>
     {% endif %}
+    {% if podtytul %}
+    <div class="book-subtitle"> {{ podtytul }} </div>
+    {% endif %}
     <div class="book-underline"> </div>
     {% if opis %}
     <div class="book-description"> {{ opis | safe }} </div>

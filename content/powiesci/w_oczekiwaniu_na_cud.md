@@ -1,8 +1,8 @@
 +++
-weight = 18
+weight = 17
 +++
 
-{{ ksiazka(obrazek='w-oczekiwaniu-na-cud.jpg', strona_obrazka='prawa', tytul='W oczekiwaniu na cud', opis='
+{{ ksiazka(obrazek='w-oczekiwaniu-na-cud.jpg', strona_obrazka='lewa', tytul='W oczekiwaniu na cud', opis='
 Opis wydawcy:<br/><br/>
 Mira chce wierzyć, że to będzie udana Gwiazdka. Nie zważając na niesnaski między córkami oraz konflikt syna z ojcem – próbuje ocalić ducha świąt.<br/><br/>
 Na tydzień przed Wigilią na rodzinę spada nagły cios: mama ulega wypadkowi. Od tej chwili wszystko staje na głowie. Co robić, kiedy w drużynie zabraknie kapitana?<br/><br/>

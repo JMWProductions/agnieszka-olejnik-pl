@@ -1,7 +1,8 @@
 +++
-weight = 13
+weight = 12
 +++
-{{ ksiazka(obrazek='nie-jest-za-pozno.jpg', strona_obrazka='lewa', tytul='Nie jest za późno', opis='
+
+{{ ksiazka(obrazek='nie-jest-za-pozno.jpg', strona_obrazka='prawa', tytul='Nie jest za późno', opis='
 Opis wydawcy:<br/><br/>
 Taka miłość nie zdarza się dwa razy.<br/><br/>
 Po raz pierwszy rozmawialiśmy w Nowy Rok. Właściwie tamtego styczniowego dnia zaczęła się nasza historia, choć oczywiście dla mnie to był ciąg dalszy. Bo widzieliśmy się już wcześniej.

@@ -1,7 +1,8 @@
 +++
-weight = 10
+weight = 9
 +++
-{{ ksiazka(obrazek='odrobina-magii.jpeg', strona_obrazka='prawa', tytul='Odrobina magii', opis='
+
+{{ ksiazka(obrazek='odrobina-magii.jpeg', strona_obrazka='lewa', tytul='Odrobina magii', opis='
 Opis wydawcy:<br/><br/>
 Czerwone dachy powolutku przykrywa śnieg. Księżyc zagląda do okien mieszkańcom. Oto Zosia, która właśnie straciła miłość swego życia i pragnie ją odzyskać. Oto Klara, tkwiąca w nieudanym związku. Tu zaś śpi Kosma, marzący o debiucie literackim. Pani Jadzia krząta się jeszcze w kuchni i zerka na telefon. Może syn wreszcie zadzwoni, może zapowie się na święta. A syn? Syn, który po sześciu latach nadal nie pogodził się ze śmiercią żony, pragnie tylko, aby matka zostawiła go w spokoju. <br/>
 Wszyscy czegoś pragną, czegoś szukają. I wszyscy znajdą, jeśli tylko pozwolą, aby w ich życiu pojawiła się odrobina magii.

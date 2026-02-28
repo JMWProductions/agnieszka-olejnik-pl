@@ -1,7 +1,8 @@
 +++
-weight = 7
+weight = 6
 +++
-{{ ksiazka(obrazek='mow-szeptem.jpeg', strona_obrazka='lewa', tytul='Mów szeptem', opis='
+
+{{ ksiazka(obrazek='mow-szeptem.jpeg', strona_obrazka='prawa', tytul='Mów szeptem', opis='
 Opis wydawcy:<br/><br/>
 Młodzi. Samotni. Rozdarci.
 Witek to miłośnik Szekspira i geniusz matematyczny, który rozumie liczby lepiej niż ludzi. Chłopak ma też rzadki dar i widzi słowa jako kolory. Pomimo tego, że świat Witka jest bogaty, to samotny, bo nie ma w nim przyjaciół.

@@ -1,7 +1,8 @@
 +++
-weight = 8
+weight = 7
 +++
-{{ ksiazka(obrazek='rozmerdane-swieta.jpeg', strona_obrazka='prawa', tytul='Rozmerdane święta', opis='
+
+{{ ksiazka(obrazek='rozmerdane-swieta.jpeg', strona_obrazka='lewa', tytul='Rozmerdane święta', opis='
 Opis wydawcy:<br/><br/>
 Szukasz bożonarodzeniowej powieści o miłości? Jesteś na najlepszym tropie!<br/>
 Olgierd oddaje się pracy polonisty.<br/>

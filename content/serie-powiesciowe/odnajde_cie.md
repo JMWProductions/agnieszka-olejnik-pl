@@ -1,6 +1,7 @@
 +++
-weight = 16
+weight = 17
 +++
+
 {{ ksiazka(obrazek='odnajde-cie.jpg', strona_obrazka='lewa', tytul='Odnajdę cię', opis='
 Opis wydawcy:<br/>
 Ogarnięta wojną Europa. Katrin i Peter, kochankowie z Dolnych Łużyc, próbują się odnaleźć, nie mając pojęcia, że chwilami los krzyżuje ich ścieżki. Tymczasem służący w Wehrmachcie Rudi przeżywa załamanie nerwowe, zaś Marlene podejmuje decyzje, których przyjdzie jej gorzko żałować.

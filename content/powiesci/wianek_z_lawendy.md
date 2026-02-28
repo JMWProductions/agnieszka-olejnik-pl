@@ -1,7 +1,8 @@
 +++
-weight = 11
+weight = 10
 +++
-{{ ksiazka(obrazek='wianek-z-lawendy.jpeg', strona_obrazka='lewa', tytul='Wianek z lawendy', opis='
+
+{{ ksiazka(obrazek='wianek-z-lawendy.jpeg', strona_obrazka='prawa', tytul='Wianek z lawendy', opis='
 Opis wydawcy:<br/><br/>
 Czy miłości trzeba szukać, czy wystarczy czekać, aż sama nas znajdzie?<br/><br/>
 Nika opiekuje się chorą matką i uważa, że jej szansa na szczęście przepadła dawno temu. Inka została zdradzona, ale nie zamierza poddać się tak łatwo. Jakub snuje swoje marzenia o związku idealnym.

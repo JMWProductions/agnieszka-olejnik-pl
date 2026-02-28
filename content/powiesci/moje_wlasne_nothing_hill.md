@@ -1,8 +1,8 @@
 +++
-weight = 17
+weight = 16
 +++
 
-{{ ksiazka(obrazek='moje-wlasne-nothing-hill.png', strona_obrazka='lewa', tytul='Moje własne Nothing Hill', opis='
+{{ ksiazka(obrazek='moje-wlasne-nothing-hill.png', strona_obrazka='prawa', tytul='Moje własne Nothing Hill', opis='
 Opis wydawcy:<br/><br/>
 A gdyby tak wyrwać się codziennej rutynie, uciec od nudy, choć kilka dni przeżyć inaczej?<br/>
 A gdyby tak spełnić przynajmniej jedno ze swoich marzeń?

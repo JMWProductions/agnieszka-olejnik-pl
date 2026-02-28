@@ -1,7 +1,8 @@
 +++
-weight = 15
+weight = 14
 +++
-{{ ksiazka(obrazek='duzo-milosci.jpg', strona_obrazka='lewa', tytul='Dużo miłości', opis='
+
+{{ ksiazka(obrazek='duzo-milosci.jpg', strona_obrazka='prawa', tytul='Dużo miłości', opis='
 Opis wydawcy: <br />
 A gdyby do każdej potrawy dodać szczyptę miłości?
 <br/><br/>

@@ -1,7 +1,8 @@
 +++
 weight = 11
 +++
-{{ ksiazka(obrazek='jeszcze-bedzie-przepieknie.jpeg', strona_obrazka='lewa', tytul='Jeszcze będzie przepięknie - tom III', opis='
+
+{{ ksiazka(obrazek='jeszcze-bedzie-przepieknie.jpg', strona_obrazka='lewa', tytul='Jeszcze będzie przepięknie - tom III', opis='
 Opis wydawcy:<br/>
 Daj się uwieść niespiesznemu rytmowi życia w cichym miasteczku Miłosna.<br/>
 Zapraszamy do pięknego dworku w stylu angielskim. Wybierz się na przechadzkę parkową alejką i zachłyśnij się zapachem wiosny.<br/>

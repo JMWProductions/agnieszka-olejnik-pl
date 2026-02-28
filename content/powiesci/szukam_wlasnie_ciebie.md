@@ -1,7 +1,8 @@
 +++
-weight = 6
+weight = 5
 +++
-{{ ksiazka(obrazek='szukam-wlasnie-ciebie.jpeg', strona_obrazka='prawa', tytul='Szukam właśnie ciebie', opis='
+
+{{ ksiazka(obrazek='szukam-wlasnie-ciebie.jpeg', strona_obrazka='lewa', tytul='Szukam właśnie ciebie', opis='
 Opis wydawcy:<br/><br/>
 Kim on jest? Skąd przyjechał? I dlaczego patrzy na mnie tak, jak patrzył dotąd tylko jeden mężczyzna?
 Kim ona jest? Dlaczego mam wrażenie, że ją znam? I skąd to nieznośne przeświadczenie, że nie mam prawa do jej miłości?
